@@ -20,6 +20,10 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 
+gem 'devise'
+
+gem 'simple_form'
+
 gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
@@ -27,6 +31,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 2.3.2.1'
 
 gem 'rails_12factor', group: :production
+
+gem 'protected_attributes'
 
 group :doc do
 
