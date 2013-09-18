@@ -24,6 +24,10 @@ gem 'devise'
 
 gem 'simple_form'
 
+#gem "paperclip", "~> 3.0"
+
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+
 gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.2'
